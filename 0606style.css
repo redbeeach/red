@@ -120,7 +120,7 @@ input {
 }
 
 .swiper-slide:nth-child(1) .slide-img {
-    background-image: url('img/GettyImages-1128349263.jpg');
+    background-image: url('../red/img/GettyImages-1128349263.jpg');
 }
 
 .swiper-slide:nth-child(2) .slide-img {
@@ -132,7 +132,7 @@ input {
 }
 
 .swiper-slide:nth-child(4) .slide-img {
-    background-image: url('img/tottenham-19-20-training-kit-1.jpg');
+    background-image: url('/img/tottenham-19-20-training-kit-1.jpg');
 }
 
 .swiper-slide:nth-child(5) .slide-img {
