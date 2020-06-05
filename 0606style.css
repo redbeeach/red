@@ -120,23 +120,23 @@ input {
 }
 
 .swiper-slide:nth-child(1) .slide-img {
-    background-image: url('/img/GettyImages-1128349263.jpg');
+    background-image: url('img/GettyImages-1128349263.jpg');
 }
 
 .swiper-slide:nth-child(2) .slide-img {
-    background-image: url('/img/gettyimages-1129463624-612x612.jpg');
+    background-image: url('img/gettyimages-1129463624-612x612.jpg');
 }
 
 .swiper-slide:nth-child(3) .slide-img {
-    background-image: url('/img/harry-winks-tottenham-hotspur-jrndym.jpg');
+    background-image: url('img/harry-winks-tottenham-hotspur-jrndym.jpg');
 }
 
 .swiper-slide:nth-child(4) .slide-img {
-    background-image: url('/img/tottenham-19-20-training-kit-1.jpg');
+    background-image: url('img/tottenham-19-20-training-kit-1.jpg');
 }
 
 .swiper-slide:nth-child(5) .slide-img {
-    background-image: url('/img/spurslineup_trans_NvBQzQNjv4BqZgEkZX3M936N5BQK4Va8RWtT0gK_6EfZT336f62EI5U.webp');
+    background-image: url('img/spurslineup_trans_NvBQzQNjv4BqZgEkZX3M936N5BQK4Va8RWtT0gK_6EfZT336f62EI5U.webp');
 }
 
 .slide-img {
