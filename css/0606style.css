@@ -26,7 +26,11 @@ body {
     color: #fff;
     /*  overflow: hidden;*/
 }
-
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
 ul {
     list-style: none;
 }
