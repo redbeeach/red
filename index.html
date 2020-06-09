@@ -750,6 +750,9 @@
 -->
 
 <div id="footer"></div>
+    <div class="gototop">
+        <button id="gotoTop">TOP</button>
+    </div>
     
     <!-- jquery -->
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -765,6 +768,27 @@
     <script src="main.js"></script>
 <!--   aos js-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        $(function() {
+
+            $(window).scroll(function() {
+
+                if ($(this).scrollTop() >= 500) {
+                    $("#gotoTop").fadeIn();
+                } else {
+                    $("#gotoTop").fadeOut();
+                }
+            });
+            $("#gotoTop").click(function() {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+
+
+        });
+
+    </script>
     <script>
         AOS.init({
             offset: 400, // offset (in px) from the original trigger point
