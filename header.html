@@ -22,9 +22,7 @@
         </div>
         </nav>
     </header>
-    <div class="gototop">
-        <button id="gotoTop">TOP</button>
-    </div>
+
 
     <style>
         .media li {
@@ -181,18 +179,6 @@
         }
 
 
-        .gototop {
-            position: fixed;
-            z-index: 1;
-        }
-
-        #gotoTop {
-            position: fixed;
-            bottom: 50px;
-            right: 50px;
-            padding: 20px;
-            border-radius: 20px;
-        }
 
         @media screen and (max-width: 700px) {
 
@@ -263,24 +249,4 @@
         });
 
     </script>
-    <script>
-        $(function() {
-
-            $(window).scroll(function() {
-
-                if ($(this).scrollTop() >= 500) {
-                    $("#gotoTop").fadeIn();
-                } else {
-                    $("#gotoTop").fadeOut();
-                }
-            });
-            $("#gotoTop").click(function() {
-                $('html,body').animate({
-                    scrollTop: 0
-                }, 1000);
-            });
-
-
-        });
-
-    </script>
+ 
