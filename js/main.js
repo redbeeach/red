@@ -1,5 +1,15 @@
+//     const mainNav = document.querySelector('.navbar');
+//     //    const navList = document.querySelector('.nav-list');
+//     const hamburgerMenu = document.querySelector('.hamburger-menu');
+//
+//
+//     hamburgerMenu.addEventListener('click', function () {
+//         mainNav.classList.toggle('open');
+//     });
+//   
+   
 
-
+   
      var slider = new Swiper(".swiper-container", {
          slidesPerView: 'auto',
          spaceBetween: 150,
@@ -97,6 +107,7 @@
 //      responsive: [
 //        {
 //          breakpoint: 1024,
+//          settings: {
 //          settings: {
 //            slidesToShow: 3,
 //            slidesToScroll: 1
